@@ -10,12 +10,15 @@
 	<h1>Tag Example</h1>
 	<c:import var="data" url="https://www.w3schools.com" />
 	<c:out value="${data}" />
-
+ 
 	<h1>Core Tag Example</h1>
 	<c:set var="Income" scope="session" value="${4000*4}" />
 	<c:out value="${Income}" />
+		<h1>Core Tag Example</h1>
+ 
 
-	<h1>Core Tag Example</h1>
+
+
 	<c:set var="income" scope="session" value="${4000*4}" />
 	<p>
 		Before Remove Value is:
